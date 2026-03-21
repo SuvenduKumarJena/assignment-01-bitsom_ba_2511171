@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "elec_1",
+    "name": "Premium Laptop",
+    "category": "Electronics",
+    "price": 85000,
+    "stock_quantity": 40,
+    "specs": {
+      "ram_gb": 16,
+      "storage_gb": 512,
+      "warranty_months": 12
+    },
+    "compatible_os": [
+      "Windows", 
+      "Linux"
+    ]
+  },
+  {
+    "_id": "cloth_1",
+    "name": "Plain White T-Shirt",
+    "category": "Clothing",
+    "price": 300,
+    "stock_quantity": 150,
+    "attributes": {
+      "size": "M",
+      "material": "100% Cotton"
+    },
+    "care_instructions": [
+      "Hand wash only", 
+      "Do not iron on print"
+    ]
+  },
+  {
+    "_id": "groc_1",
+    "name": "Loaf of Brown Bread",
+    "category": "Groceries",
+    "price": 45,
+    "stock_quantity": 30,
+    "expiry_date": "2024-11-20T00:00:00Z",
+    "nutritional_info": {
+      "calories_per_slice": 70,
+      "protein_grams": 3
+    },
+    "ingredients": [
+      "Whole wheat flour", 
+      "Water", 
+      "Yeast"
+    ]
+  }
+]
